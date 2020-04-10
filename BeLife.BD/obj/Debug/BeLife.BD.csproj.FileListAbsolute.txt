@@ -1,0 +1,12 @@
+C:\Users\Akai\Desktop\BeLife\BeLife.BD\bin\Debug\BeLife.BD.dll.config
+C:\Users\Akai\Desktop\BeLife\BeLife.BD\bin\Debug\BeLife.BD.dll
+C:\Users\Akai\Desktop\BeLife\BeLife.BD\bin\Debug\BeLife.BD.pdb
+C:\Users\Akai\Desktop\BeLife\BeLife.BD\bin\Debug\EntityFramework.dll
+C:\Users\Akai\Desktop\BeLife\BeLife.BD\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Akai\Desktop\BeLife\BeLife.BD\bin\Debug\EntityFramework.xml
+C:\Users\Akai\Desktop\BeLife\BeLife.BD\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Akai\Desktop\BeLife\BeLife.BD\obj\Debug\BeLife.BD.csprojResolveAssemblyReference.cache
+C:\Users\Akai\Desktop\BeLife\BeLife.BD\obj\Debug\BeLife.BD.csproj.CoreCompileInputs.cache
+C:\Users\Akai\Desktop\BeLife\BeLife.BD\obj\Debug\BeLife.BD.csproj.CopyComplete
+C:\Users\Akai\Desktop\BeLife\BeLife.BD\obj\Debug\BeLife.BD.dll
+C:\Users\Akai\Desktop\BeLife\BeLife.BD\obj\Debug\BeLife.BD.pdb
