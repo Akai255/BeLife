@@ -16,3 +16,4 @@ C:\Users\Akai\Desktop\BeLife\BeLife.Aplicacion\obj\Debug\BeLife.Aplicacion.cspro
 C:\Users\Akai\Desktop\BeLife\BeLife.Aplicacion\obj\Debug\BeLife.Aplicacion.csproj.CoreCompileInputs.cache
 C:\Users\Akai\Desktop\BeLife\BeLife.Aplicacion\obj\Debug\BeLife.Aplicacion.exe
 C:\Users\Akai\Desktop\BeLife\BeLife.Aplicacion\obj\Debug\BeLife.Aplicacion.pdb
+C:\Users\Akai\Desktop\BeLife\BeLife.Aplicacion\obj\Debug\BeLife.Aplicacion.csprojResolveAssemblyReference.cache

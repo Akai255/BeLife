@@ -35,20 +35,20 @@ namespace BeLife.Aplicacion
         {
             Datos.BeLifeEntities bbdd = new Datos.BeLifeEntities();
 
-            Datos.Cliente clien = new Datos.Cliente();
+            Datos.Cliente cliente = new Datos.Cliente();
 
             try
             {
-                CommonBC.Syncronize(this, clien);
+                CommonBC.Syncronize(this, cliente);
 
-                bbdd.Cliente.Add(clien);
+                bbdd.Cliente.Add(cliente);
                 bbdd.SaveChanges();
 
                 return true;
             }
             catch (Exception ex)
             {
-                bbdd.Cliente.Remove();
+                bbdd.Cliente.Remove(cliente);
                 return false;
             }
         }
