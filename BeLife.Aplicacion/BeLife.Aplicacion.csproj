@@ -55,6 +55,7 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="Cliente.cs" />
+    <Compile Include="CommonBC.cs" />
     <Compile Include="EstadoCivil.cs" />
     <Compile Include="ListadoCliente.xaml.cs">
       <DependentUpon>ListadoCliente.xaml</DependentUpon>
@@ -109,6 +110,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BeLife.Datos\BeLife.Datos.csproj">
+      <Project>{b65ea780-d899-45f4-a689-a637d89065b1}</Project>
+      <Name>BeLife.Datos</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

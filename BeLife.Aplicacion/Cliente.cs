@@ -33,23 +33,22 @@ namespace BeLife.Aplicacion
 
         public bool Create()
         {
-            BeLife.BD.BeLifeEntities bbdd = new BeLife.BD.BeLifeEntities();
+            Datos.BeLifeEntities bbdd = new Datos.BeLifeEntities();
 
-            BeLife.BD.Cliente cliente = new BeLife.BD.Cliente();
+            Datos.Cliente clien = new Datos.Cliente();
 
             try
             {
-                CommonBC.Syncronize(this, cliente);
+                CommonBC.Syncronize(this, clien);
 
-                bbdd.Cliente.Add(cliente);
+                bbdd.Cliente.Add(clien);
                 bbdd.SaveChanges();
 
                 return true;
             }
             catch (Exception ex)
             {
-                bbdd.Cliente.Remove(cliente);
-
+                bbdd.Cliente.Remove();
                 return false;
             }
         }
